@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+ 
+				
+<rdf:RDF
+			 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+			 xmlns:skos="http://datos.gob.es/kos/sector-publico/sector/"
+			 xmlns:dcat="http://www.w3.org/ns/dcat#"
+			 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+			 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			 xmlns:dct="http://purl.org/dc/terms/"
+			 xmlns:dc="http://purl.org/dc/elements/1.1/"
+			 xmlns:time="http://www.w3.org/2006/time#"
+			 xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+			<dcat:Catalog rdf:about="http://datos.madrid.es/egob/catalogo">
+			
+				
+				
+				
+					<dcat:dataset>
+						<dcat:Dataset rdf:about="http://datos.madrid.es/egob/catalogo/212531-0-calidad-aire-tiempo-real">
+							<dct:identifier>http://datos.madrid.es/egob/catalogo/212531-0-calidad-aire-tiempo-real</dct:identifier>
+							<dct:title xml:lang="es">Calidad del aire: Datos en tiempo real</dct:title>
+							<dct:description xml:lang="es"><![CDATA[ El Sistema Integral de la Calidad del Aire del Ayuntamiento de Madrid permite conocer en cada momento los niveles de contaminación atmosférica en el municipio. 
+ En este conjunto de datos puede obtener la información actualizada en tiempo real,  actualizándose estos datos cada hora, y esta actualización se realizará entre los minutos 20 y 30.  ]]></dct:description>
+							<dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-ambiente" />
+														
+							<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-04-09T00:00:00</dct:issued>
+							<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-01T00:00:00</dct:modified>
+							
+							
+								<dct:accrualPeriodicity>
+									<dct:Frequency>
+										<rdfs:label>tiemporeal</rdfs:label>
+										<rdf:value>
+											<time:DurationDescription>
+												<rdfs:label>tiemporeal</rdfs:label>
+												<time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:days>
+											</time:DurationDescription>
+										</rdf:value>
+									</dct:Frequency>
+								</dct:accrualPeriodicity>
+							
+							<dc:language>es</dc:language>
+							<dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796"/>
+							
+							<dct:license rdf:resource="http://datos.madrid.es/egob/catalogo/aviso-legal"/>
+							
+							
+							
+							<dcat:distribution>
+  <dcat:Distribution>
+    <dct:title xml:lang="es">Calidad del aire. Tiempo real</dct:title>
+    <dcat:accessURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://datos.madrid.es/egob/catalogo/212531-7916318-calidad-aire-tiempo-real.txt</dcat:accessURL>
+    <dcat:mediaType>text/plain</dcat:mediaType>
+  </dcat:Distribution>
+</dcat:distribution>
+
+						</dcat:Dataset>
+					</dcat:dataset>
+				
+				
+								
+				
+			</dcat:Catalog>			 
+		</rdf:RDF>
+				
+
